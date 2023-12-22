@@ -2,7 +2,7 @@ module starter
 
 go 1.21.3
 
-require github.com/mpetavy/common v1.6.33
+require github.com/mpetavy/common v1.6.36
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
@@ -60,3 +60,5 @@ require (
 	google.golang.org/protobuf v1.30.0 // indirect
 	software.sslmate.com/src/go-pkcs12 v0.2.0 // indirect
 )
+
+//replace github.com/mpetavy/common => ../common
