@@ -2,7 +2,7 @@ module github.com/mpetavy/starter
 
 go 1.21.3
 
-require github.com/mpetavy/common v1.7.11
+require github.com/mpetavy/common v1.7.12
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
