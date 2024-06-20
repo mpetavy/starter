@@ -9,7 +9,7 @@ import (
 var resources embed.FS
 
 func init() {
-	common.Init("", "", "", "", "starter", "", "", "", &resources, nil, nil, run, 0)
+	common.Init("", "", "", "", "", "", "", "", &resources, nil, nil, run, 0)
 }
 
 func run() error {
