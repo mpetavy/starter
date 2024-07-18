@@ -2,7 +2,7 @@ module github.com/mpetavy/starter
 
 go 1.21.3
 
-require github.com/mpetavy/common v1.8.39
+require github.com/mpetavy/common v1.8.40
 
 require (
 	github.com/beevik/etree v1.1.4 // indirect
