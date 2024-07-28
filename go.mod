@@ -2,7 +2,7 @@ module github.com/mpetavy/starter
 
 go 1.21.3
 
-require github.com/mpetavy/common v1.8.48
+require github.com/mpetavy/common v1.8.49
 
 require (
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
