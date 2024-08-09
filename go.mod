@@ -2,7 +2,10 @@ module github.com/mpetavy/starter
 
 go 1.21.3
 
-require github.com/mpetavy/common v1.8.52
+require (
+	github.com/mpetavy/common v1.8.53
+	github.com/wk8/go-ordered-map/v2 v2.1.8
+)
 
 require (
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
@@ -32,7 +35,6 @@ require (
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
-	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
 	go.bug.st/serial v1.5.0 // indirect
 	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/exp v0.0.0-20230425010034-47ecfdc1ba53 // indirect
