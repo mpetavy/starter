@@ -3,7 +3,7 @@ module github.com/mpetavy/starter
 go 1.21.3
 
 require (
-	github.com/mpetavy/common v1.8.55
+	github.com/mpetavy/common v1.8.56
 	github.com/wk8/go-ordered-map/v2 v2.1.8
 )
 
