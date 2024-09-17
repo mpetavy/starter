@@ -1,8 +1,10 @@
 module github.com/mpetavy/starter
 
-go 1.21.3
+go 1.22
 
-require github.com/mpetavy/common v1.8.82
+toolchain go1.22.5
+
+require github.com/mpetavy/common v1.8.84
 
 require (
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
